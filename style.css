@@ -1,0 +1,145 @@
+html {
+    touch-action: manipulation;
+}
+
+@font-face {
+    font-family: DigitalDismay;
+    src: url("fonts/Digital\ Dismay.otf");
+}
+
+body {
+    transform: scale(0.75);
+    width: 100%;
+    height: auto;
+
+    margin: -60px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+
+    user-select: none;
+      -webkit-user-select: none; /* Safari */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* IE 10 and 11 */
+      -o-user-select: none; /* Opera */
+}
+
+.main {
+    position: relative;
+    width: 1000px;
+    height: auto;
+    user-select: none;
+    pointer-events: none;
+
+    -webkit-app-region: drag;
+}
+
+.buttons { 
+    transform: translate(0px, 0px);
+}
+
+.button, .button-small {
+    position: absolute;
+    user-select: none;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+}
+
+.button {
+    width: 125px;
+    height: auto;
+}
+
+.button-small {
+    width: 100px;
+    height: auto;
+}
+
+.A {
+    right: 162.5px;
+    top: 62px;
+}
+
+.B {
+    right: 333px;
+    top: 62px;
+}
+
+.start {
+    right: 584px;
+    top: 104px;
+}
+
+.select {
+    right: 744px;
+    top: 104px;
+}
+
+.lcd, #cursor, #colon {
+    text-shadow: 6px 6px #88ac80;
+    user-select: none;
+    pointer-events: none;
+}
+
+.lcd {
+    display: inline-flex;
+    position: relative;
+    margin-right: -379px;   
+    transform: translate(-545px, -125px);
+}
+
+#cursor {
+    position: relative;
+    right: 168px;
+    bottom: 90px;
+}
+
+h1, h2 {
+    font-family: DigitalDismay;
+    font-weight: lighter;
+}
+p {
+    font-weight: 100;
+}
+h1, p {
+    font-size: 110px;
+}
+h2 {
+    font-size: 80px;
+}
+
+#big_1 {
+    margin-right: 40px;
+}
+
+#small_0, #small_1 {
+    transform: translateY(34px);
+}
+
+#colon {
+    margin-left: -5px;
+    margin-right: -5px;
+    transform: translate(-410px, -126px);
+    visibility: hidden;
+}
+
+#cursor { 
+    transform: translateX(-297px);
+}
+
+@media (pointer: fine), (pointer: none) {
+    body {
+        margin-top: 40px;
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 40px auto;
+        transform: rotate(90deg) scale(60%);
+    }
+}

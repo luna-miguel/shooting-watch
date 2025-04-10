@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" type="image/png" href="icon.png">
+    <title>シューティングウォッチ</title>
+  </head>
+
+  <body>
+    <img class="main" src="img/body.png">
+      <div class="buttons">
+        <img class="button A" id="A" src="img/button.png" draggable="false">
+        <img class="button B" id="B" src="img/button.png" draggable="false">
+        <img class="button-small select" id="select" src="img/button_start.png" draggable="false">
+        <img class="button-small start" id="start" src="img/button_start.png" draggable="false">
+      </div>
+      <p id="cursor">-</p>
+      <h1 id="colon">:</h1>
+      <div class="lcd">
+        <h1 id="big_0">8</h1>
+        <h1 id="big_1">8</h1>
+        <h1 id="big_2">8</h1>
+        <h1 id="big_3">8</h1>
+        <h2 id="small_0">8</h2>
+        <h2 id="small_1">8</h2>
+      </div>
+  </body>
+  <script src="renderer.js"></script>
+</html>
