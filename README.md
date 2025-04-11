@@ -1,6 +1,8 @@
 # Shooting Watch (シューティングウォッチ)
 **_Aim for 16 shots!_**
 
+![Shooting Watch example image](img/example.png)
+
 ## What is it?
 The Shooting Watch is a self-proclaimed "rapid-fire measurement device".
 Essentially, it's a watch that's been put into a game controller. The main feature
