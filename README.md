@@ -11,11 +11,11 @@ measures **how fast you can hit the A and B buttons within 10 seconds**.
 ![Hudson Soft Shooting Watch (2008 model)](https://upload.wikimedia.org/wikipedia/commons/6/67/SHOOTING_WATCH_%282008%29.jpg)
 
 It was originally created by the game company **Hudson Soft** (now owned by Konami) in **1987**.
-Hudson Soft released many gaming peripherals with rapid-fire as the main selling point, and 
-was advertised for use in shooting games (what we call **shoot-'em-ups** outside of Japan) they developed,
+Hudson Soft released many gaming accessories with rapid-fire as the main selling point, and 
+advertised for their use in shooting games (what we call **shoot-'em-ups** outside of Japan) they developed,
 including **Star Force and Star Soldier**.
 
-Hudson Soft and their products became widely famous thanks to the efforts of Takahashi Meijin, or Master Takahashi (real name Toshiyuki Takahashi).
+Hudson Soft and their products became widely famous thanks to the efforts of **Takahashi Meijin**, or Master Takahashi (real name Toshiyuki Takahashi).
 He was the face of Hudson's marketing in their prime and became a celebrity amongst kids, appearing in comic books and television shows.
 He even stars in the Japanese version of Hudson's game series **Adventure Island**.
 
